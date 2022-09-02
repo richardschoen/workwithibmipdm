@@ -42,6 +42,7 @@ App is .Net 6 so no special .Net runtimes or frameworks should be needed.
 **Please submit feedback as issues on the GitHub issues tab.** 
 
 ```
-Note: If you use Work with IBM i to download and edit source members, line numbers and source dates are NOT preserved. 
+Note: If you use Work with IBM i to download and edit source members, line 
+numbers and source dates are NOT preserved. 
 We're assuming you're stepping in to the new world of using PCs to edit your source members
 ```
