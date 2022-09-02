@@ -17,6 +17,8 @@ The Work with IBM i client also knows if a source member has already been downlo
 
 .Net developers will be able to create their own alternatives to PDM user options using a C# plugin.
 
+SSH connectivity is used for communications with the IBM i operating system.
+
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/9791508/188206784-4e06bbce-bdd4-430a-8553-ff5891dc5881.png">
 
 # Downloading the latest release 
