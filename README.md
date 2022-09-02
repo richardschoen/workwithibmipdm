@@ -9,6 +9,9 @@ PDM user options are also supported as long as they don't expect to interface wi
 
 The Work with IBM i client also provides a direct interface to the ```iForGit source management``` commands for commiting changes to your git repositories from your standard source physical files. Use of these commands assumes you have an iForGit annual subscription license. Learn more here: http://www.iforgit.com
 
+<img width="503" alt="image" src="https://user-images.githubusercontent.com/9791508/188206376-3881e4ea-7f8d-4f0a-b5f9-d2c537bd2525.png">
+
+
 # IBM i Requirements
 IBM i V7R3 and above
 
