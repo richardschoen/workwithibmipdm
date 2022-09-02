@@ -9,7 +9,25 @@ PDM user options are also supported as long as they don't expect to interface wi
 
 The Work with IBM i client also provides a direct interface to the ```iForGit source management``` commands for commiting changes to your git repositories from your standard source physical files. Use of these commands assumes you have an iForGit annual subscription license. Learn more here: http://www.iforgit.com
 
+# IBM i Requirements
+IBM i V7R3 and above
 
+SSH must be enabled and running for commectivity.
+
+Open Source Package Management must be installed.
+
+XMLSERVICE must be installed 
+
+Yum package xmlservice-cli must be installed.
+
+There may be a few others I have not listed yet.....
+
+# PC Requirements
+Windows 7 and above. So far only tested on Windows 10 and 11.
+
+App is .Net 6 so no special .Net runtimes or frameworks should be needed.
+
+# Feedback
 **Please submit feedback as issues on the GitHub issues tab.** 
 
 ```
