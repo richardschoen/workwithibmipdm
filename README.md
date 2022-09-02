@@ -13,7 +13,7 @@ PDM user options are also supported as long as they don't expect to interface wi
 
 The Work with IBM i client also provides a direct interface to the ```iForGit source management``` commands for commiting changes to your git repositories from your standard source physical files. Use of these commands assumes you have an iForGit annual subscription license. Learn more here: http://www.iforgit.com
 
-The Work with IBM i client also knows if a source member has already been downloaded locally for offline/local editing and provides visual clue in the UI.
+The Work with IBM i client also knows if a source member has already been downloaded locally for offline/local editing and provides visual clues in the UI.
 
 .Net developers will be able to create their own alternatives to PDM user options using a C# plugin.
 
@@ -21,9 +21,9 @@ The Work with IBM i client also knows if a source member has already been downlo
 
 
 # IBM i Requirements
-IBM i V7R3 and above
+IBM i V7R3 and above.
 
-SSH must be enabled and running for commectivity.
+SSH must be enabled and running for connectivity.
 
 Open Source Package Management must be installed.
 
