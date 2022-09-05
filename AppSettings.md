@@ -2,7 +2,7 @@
 These are the available app settings that can be edited via the ```File/Settings``` menu.
 
 ## apptitle
-This is the application title. Default - Work with IBM i
+This is the application title. ```Default - Work with IBM i```
 
 ## ibmihost
 This is the last used IBM i host name or ip address to connect to. (Automatically updated)
@@ -14,7 +14,7 @@ This is the last IBM i user name that was used to connect with. (Automatically u
 This is the encrypted password for the last used that was connected with. (Not currently enabled)
 
 ## ibmiport 
-This is the last SSH port connected to. Default-22 (Automatically updated)
+This is the last SSH port connected to. ```Default-22``` (Automatically updated)
 
 ## lastsourcefile
 This is the last source file that was listed. (Automatically updated)
@@ -24,9 +24,6 @@ This is the last source file library where the lastsource file is located. (Auto
 
 ## lastifsdir 
 This is the last IFS directory listed. (Not currently enabled)
-
-## cpyfrmstmfdbfccsid
-DBFCCSID parameter value. Default - ```*FILE```. Change to ```37``` or your local CCSID if you get errors uploading source members.
 
 ## sourceeditorexe
 This is the Windows editor app to use when editing source members. ```Default - notepad.exe```
@@ -98,30 +95,30 @@ This is the PDM options file library to read for enabling PDM option handling. `
 Command line to launch IBM Access Client Solutions. ```Default: C:\ibmaccess\Start_Programs\Windows_x86-64\acslaunch_win-64.exe```
 
 ## xmlservicecli
-XMLSERVICE command line interface app
+XMLSERVICE pase command line interface app. ```Default: /qopensys/pkgs/bin/xmlservicemb-cli```
 
-	<Setting>
-		<SettingName>xmlservicecli</SettingName>
-		<SettingValue>/QOpenSys/pkgs/bin/xmlservicemb-cli</SettingValue>
-	</Setting>
-	<Setting>
-		<SettingName>sourceeditorexevscode</SettingName>
-		<SettingValue>vscode://file/@@FILENAME</SettingValue>
-	</Setting>
-	<Setting>
-		<SettingName>sourceeditorexenotepadplus</SettingName>
-		<SettingValue>c:\Program Files (x86)\Notepad++\notepad++.exe</SettingValue>
-	</Setting>
-	<Setting>
-		<SettingName>usecpytoimpf</SettingName>
-		<SettingValue>True</SettingValue>
-	</Setting>
-	<Setting>
-		<SettingName>cpytostmfdbfccsid</SettingName>
-		<SettingValue>*FILE</SettingValue>
-	</Setting>
-	<Setting>
-		<SettingName>cpytoimpffromfileccsid</SettingName>
-		<SettingValue>*FILE</SettingValue>
-	</Setting>
-</Settings>
+This is a custom version of the xmlservice-cli app. That enabled CDATA so SQL query results don't get mangled when they contain special characters. 
+
+The Work with IBM i app will upload the ```/QOpenSys/pkgs/bin/xmlservicemb-cli``` binary on first run and will display a message asking if it's OK to upload.
+
+## sourceeditorexevscode
+This is a a sample command line template for sourceeditorexe or sourceviewerexe to launch Visual Studio Code (VS Code)
+
+```vscode://file/@@FILENAME```
+
+## sourceeditorexenotepadplus
+This is a a sample command line template for sourceeditorexe or sourceviewerexe to launch Notepad++, one of the most widely used Windows text editors by developers. https://notepad-plus-plus.org  
+
+```c:\Program Files (x86)\Notepad++\notepad++.exe```
+
+## usecpytoinpf
+This setting allows you to switch between using CPYTOIMPF and CPYTOSTMF when downloading source members. ```Default-True``` to use CPYTOIMPF to export a source member to an IFS file.
+
+## cpytostmfdbfccsid
+DBFCCSID parameter value. ```Default-*FILE```. Change to ```37``` or your local CCSID if you get errors downloading source members. This controls the DBFCCSID parameter on the CPYTOSTMF command. CPYTOSTMF is used for downloading source members if usecpytostmf setting=False.
+
+## cpytoimpffromfileccsid
+FILECCSID parameter value. ```Default-*FILE```. Change to ```37``` or your local CCSID if you get errors downloading source members. This controls the FILECCSID parameter on the CPYTOIMPF command. CPYTPIMPF is used for downloading source members if usecpytostmf setting=True.
+
+## cpyfrmstmfdbfccsid
+DBFCCSID parameter value. ```Default-*FILE```. Change to ```37``` or your local CCSID if you get errors uploading source members. This controls the DBFCCSID parameter on the CPYFRMSTMF command.
