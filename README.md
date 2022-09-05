@@ -26,6 +26,15 @@ https://github.com/richardschoen/workwithibmipdm/releases/tag/v1.0.1.2-dev
 
 The app installer is currently a self-extracting ZIP archive which will install app to: ```C:\Program Files (x86)\MobiGoGo\MBWorkWithIBMi```
 
+Run the setup zip self extractor as Administrator so the application gets properly unzipped to:
+C:\Program Files (x86)\MobiGoGo\MBWorkWithIBMi
+
+Then run the app or create a short cut to the app executable:
+C:\Program Files (x86)\MobiGoGo\MBWorkWithIBMi\MBWorkWithIBMi.exe
+
+Your AppSettings.xml file with personalized settings will get created here:
+C:\Users\<username>\AppData\Roaming\MobiGoGo, LLC\Work with IBM i\AppSettings.xml
+
 ```Note: Make sure to Run As Administrator or app will not install.```
 
 # IBM i Requirements
