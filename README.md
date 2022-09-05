@@ -22,7 +22,7 @@ SSH connectivity is used for communications with the IBM i operating system.
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/9791508/188206784-4e06bbce-bdd4-430a-8553-ff5891dc5881.png">
 
 # Downloading the latest release 
-https://github.com/richardschoen/workwithibmipdm/releases/tag/v1.0.1.1-dev
+https://github.com/richardschoen/workwithibmipdm/releases/tag/v1.0.1.2-dev
 
 # IBM i Requirements
 IBM i V7R3 and above.
