@@ -24,6 +24,8 @@ SSH connectivity is used for communications with the IBM i operating system.
 # Downloading the latest release 
 https://github.com/richardschoen/workwithibmipdm/releases/tag/v1.0.1.2-dev
 
+```Note: Make sure to Run As Administrator or app will not install.```
+
 # IBM i Requirements
 IBM i V7R3 and above.
 
