@@ -1,6 +1,10 @@
 # Work with IBM i Settings in AppSettings.xml
 These are the available app settings that can be edited via the ```File/Settings``` menu.
 
+```File/Settings``` will launch the settings file using notepad.exe for editing. 
+
+Simply save the settings file and restart the app in order for new settings to take effect.
+
 ## apptitle
 This is the application title. ```Default - Work with IBM i```
 
