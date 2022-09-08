@@ -105,6 +105,13 @@ This is a custom version of the xmlservice-cli app. That enabled CDATA so SQL qu
 
 The Work with IBM i app will upload the ```/QOpenSys/pkgs/bin/xmlservicemb-cli``` binary on first run and will display a message asking if it's OK to upload.
 
+## usexmlservicecli
+Determine if the app uses the ```xmlservice-cli``` app for SQL queries or ```db2util```. ```Default-True```
+
+True-Use xmlservice-cli for queries, False-Use db2util for queries.
+
+***Note: The xmlservice-cli and db2util prerequisite apps must be installed via yum or ACS Open Source Package Management.***
+
 ## sourceeditorexevscode
 This is a a sample command line template for sourceeditorexe or sourceviewerexe to launch Visual Studio Code (VS Code)
 
