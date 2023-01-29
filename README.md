@@ -1,4 +1,4 @@
-# Work with IBM i - Productivity Development Manager for Windows (PDM)
+# Work with IBM i - Programming Development Manager for Windows (PDM)
 This will be the distribution and support site for the Work with IBM i client. 
 
 I’m working on this interesting project to create a Windows based replacement for PDM. 
