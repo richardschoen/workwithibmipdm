@@ -57,13 +57,16 @@ Windows 7 and above. So far only tested on Windows 10 and 11.
 
 App is .Net 6 so no special .Net runtimes or frameworks should be needed.
 
-# Feedback
-**Please submit feedback as issues on the GitHub issues tab.** 
+# Source sequence numbers and source dates
 
 ```
 Note: If you use Work with IBM i to download and edit source members, line 
 numbers and source dates are NOT preserved. We're assuming you're stepping 
 in to the brave new world of using PCs to edit your source members where
-binary changes and git can show you exactly what has changed.
-
+binary changes and git can show you exactly what has changed instead of 
+relying on source sequence numbers and dates which are outdated methods 
+of tracking source changes.
 ```
+
+# Feedback
+**Please submit feedback as issues on the GitHub issues tab.** 
