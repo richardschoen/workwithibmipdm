@@ -1,9 +1,9 @@
 # Work with IBM i - Programming Development Manager for Windows (PDM)
 This will be the distribution and support site for the Work with IBM i client. 
 
-I’m working on this interesting project to create a Windows based alternative for PDM for IBM i.  
+The goal of this project is to create a FREE Windows based alternative for PDM for IBM i.  
 
-I’m doing this more for some .Net 6 practice, but so far it appears to be quite useful and the core app will be FREE to use. 
+I’m doing this more for some .Net 6 practice, but so far it appears to be quite useful and the core app is FREE to use. 
 
 The purpose of Work with IBM i is to provide a usable ```Windows based replacement for PDM``` on the 5250 green screen to work with IBM i source members.  
 
