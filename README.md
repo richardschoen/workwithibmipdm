@@ -22,20 +22,22 @@ SSH connectivity is used for communications with the IBM i operating system.
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/9791508/188206784-4e06bbce-bdd4-430a-8553-ff5891dc5881.png">
 
 # Downloading the latest release 
-https://github.com/richardschoen/workwithibmipdm/releases/tag/v1.0.1.3-dev
+https://github.com/richardschoen/workwithibmipdm/releases/tag/v1.0.1.5-dev
 
 The app installer is currently a self-extracting ZIP archive which will install app to: ```C:\Program Files (x86)\MobiGoGo\MBWorkWithIBMi```
 
 Run the setup zip self extractor as Administrator so the application gets properly unzipped to:
-C:\Program Files (x86)\MobiGoGo\MBWorkWithIBMi
+```C:\Program Files (x86)\MobiGoGo\MBWorkWithIBMi```
 
 Then run the app or create a short cut to the app executable:
-C:\Program Files (x86)\MobiGoGo\MBWorkWithIBMi\MBWorkWithIBMi.exe
+```C:\Program Files (x86)\MobiGoGo\MBWorkWithIBMi\MBWorkWithIBMi.exe```
 
 Your AppSettings.xml file with personalized settings will get created here:
-C:\Users\<username>\AppData\Roaming\MobiGoGo, LLC\Work with IBM i\AppSettings.xml
+```C:\Users\<username>\AppData\Roaming\MobiGoGo, LLC\Work with IBM i\AppSettings.xml```
 
-```Note: Make sure to Run As Administrator or app will not install.```
+```Note: Make sure to Run As Administrator or app will not install.```  
+
+***Installation and Runtime for MBWorkWithIBMi.exe are signed by Richard Schoen***
 
 # IBM i Requirements
 IBM i V7R3 and above.
