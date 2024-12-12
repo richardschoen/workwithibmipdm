@@ -5,6 +5,8 @@ The goal of this project is to create a FREE Windows based alternative for PDM f
 
 I’m doing this more for some .Net 6 practice, but so far it appears to be quite useful and the core app is FREE to use. 
 
+❗.Net 9 version coming shortly very soon.
+
 The purpose of Work with IBM i is to provide a usable ```Windows based replacement for PDM``` on the 5250 green screen to work with IBM i source members.  
 
 You can use any Windows based editor of choice to edit source file content: including Notepad, Notepad++, VS Code, RDI, etc. Notepad.exe is the default setting for the viewer and editor. You can use a separate editor and viewer if desired.  
