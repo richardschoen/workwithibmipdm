@@ -1,5 +1,5 @@
 # Work with IBM i - Programming Development Manager for Windows (PDM)
-This will be the distribution and support site for the Work with IBM i client. 
+This is the distribution and support site for the Work with IBM i client project. 
 
 The goal of this project is to create a FREE Windows based alternative for PDM for IBM i.  
 
