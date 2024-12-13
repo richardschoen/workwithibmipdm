@@ -1,9 +1,19 @@
 # Work with IBM i Settings in AppSettings.xml
 These are the available app settings that can be edited via the ```File/Settings``` menu.
 
-```File/Settings``` will launch the settings file using notepad.exe for editing. 
+```File/Settings``` will launch the settings file using the built-in editor for editing the XML settings.   
 
-Simply save the settings file and restart the app in order for new settings to take effect.
+❗ After making changes to settings, simply save the settings file and restart the app in order for new settings to take effect.
+
+## enableiforgit   
+This setting determines whether iForGit source management options are enabled. ```Default-True```    
+
+If you don't use iForGit, simply change this setting to   ```False```.   
+
+## showiforgitoptions   
+This setting determines whether iForGit source management options are visible on the source list context menu. ```Default-True```
+
+If you don't use iForGit and don't want to see the iForGit menu options, simply change this setting to ```False```.   
 
 ## apptitle
 This is the application title. ```Default - Work with IBM i```
