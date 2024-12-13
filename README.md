@@ -1,17 +1,23 @@
 # Work with IBM i - Programming Development Manager for Windows (PDM)
 This is the distribution and support site for the Work with IBM i client project. 
 
-The goal of this project is to create a FREE Windows based alternative for PDM for IBM i.  
+I started this project more for some .Net WinForms practice, but so far it appears to be quite useful and the core app is FREE to use. 
 
-I’m started this more for some .Net WinForms practice, but so far it appears to be quite useful and the core app is FREE to use. 
+The purpose of Work with IBM i is to provide a usable ```Windows based replacement for PDM``` on the 5250 green screen to work with IBM i source members. 
 
-The purpose of Work with IBM i is to provide a usable ```Windows based replacement for PDM``` on the 5250 green screen to work with IBM i source members.  
+It also supports integration with iForGit which is the subscription based Git source client for IBM i that I created. ```http://www.iforgit.com```.     
 
-You can use any Windows based editor of choice to edit source file content: including Notepad, Notepad++, VS Code, RDI, etc. Notepad.exe is the default setting for the viewer and editor. You can use a separate editor and viewer if desired.  
+Since PDM and SEU are being deprecated over time, The goal of this project is to create a FREE Windows based alternative for PDM developers who are just moving their development to the Windows desktop.   
 
-PDM user options are also supported as long as they don't expect to interface with a 5250 interface. The PDM options file setting defaults to: ```QGPL/QAUOOPT``` and can be changed in the settings file.
+Both VS Code and RDi are good development enviroments, but it's good to have options. 
 
-The Work with IBM i client also provides a direct interface to the ```iForGit Source Management``` commands for commiting changes to your git repositories from your standard source physical files. Use of these commands assumes you have an iForGit annual subscription license. Learn more here: http://www.iforgit.com
+The app contains a built-in text editor, but many people these days want to use VS Code for editing source. The application supports using VS Code and the relevant syntax editors available as part of the ```Code for i``` plugins.
+
+**You can actually use any Windows based editor of choice** to edit o view source file content: including ```Notepad```, ```Notepad++```, ```VS Code```, ```RDi```, etc. ```internal``` is the default setting for the viewer and editor to utilize the internal text editor. You can also use a separate editor and viewer if desired.  
+
+**PDM user options** are supported as long as they don't expect to interface with a 5250 interface. The PDM options file setting defaults to: ```QGPL/QAUOOPT``` and can be changed in the settings file. This is a great way to re-use your existing PDM user option commands from Work with IBM i.
+
+The Work with IBM i client also provides a direct interface to the ```iForGit Source Management``` CL commands for commiting changes to your Git repositories from your standard source physical files. Use of these commands assumes you have an iForGit annual subscription license. Learn more here: http://www.iforgit.com
 
 The Work with IBM i client also knows if a source member has already been downloaded locally for offline/local editing and provides visual cues in the UI.
 
