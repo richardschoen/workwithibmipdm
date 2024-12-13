@@ -5,7 +5,7 @@ I started this project more for some .Net WinForms practice, but so far it appea
 
 The purpose of Work with IBM i is to provide a usable ```Windows based replacement for PDM``` on the 5250 green screen to work with IBM i source members. 
 
-It also supports integration with iForGit which is the subscription based Git source client for IBM i that I created. ```http://www.iforgit.com```.     
+Work with IBM i supports integration with iForGit which is the subscription based Git source client for IBM i that I created. Learn more here: https://www.iforgit.com or https://www.github.com/richardschoen/iforgit
 
 Since PDM and SEU are being deprecated over time, The goal of this project is to create a FREE Windows based alternative for PDM developers who are just moving their development to the Windows desktop.   
 
