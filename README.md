@@ -47,27 +47,28 @@ SSH must be enabled and running for connectivity.
 
 Open Source Package Management must be installed.
 
-XMLSERVICE must be installed 
+XMLSERVICE library QXMLSERV must be installed.   
 
-Yum package xmlservice-cli must be installed.
+Yum package xmlservice-cli must be installed.   
+
+❗SSH key files in puTTYgen format are supported by SSH.Net which is the SSH component used. OpenSSH key files can be converted to puTTYgen format using puTTYgen. https://www.puttygen.com    
 
 There may be a few others I have not listed yet.....
 
 # PC Requirements
-Windows 10 and above. So far only tested on Windows 10 and 11.
+Windows 10 and above. So far only tested on Windows 10 and 11.   
 
 App is based on .Net 9 so no special .Net runtimes or frameworks should be needed other than the app package.
 
 # Source sequence numbers and source dates
-❗ Source sequence numbers and source date are NOT kept when a source member is replaced.
-```
-If you use Work with IBM i to download and edit source members, line 
-numbers and source dates are NOT preserved. We're assuming you're stepping 
-in to the brave new world of using PCs to edit your source members where
-binary changes and Git can show you exactly what has changed instead of 
-relying on source sequence numbers and dates which are outdated methods 
-for tracking source changes.
-```
+#### Warning about source dates and sequence numbers
+❗ ⚠️ Source sequence numbers and source date are NOT preserved when a source member is replaced.    
+
+If you use Work with IBM i to download and edit source members, line numbers and source dates are NOT preserved. We're assuming you're stepping in to the brave new world of using PCs to edit your source members where binary line changes and Git or tools like WinMerge can show you exactly what has changed in a source member instead of relying on source sequence numbers and dates or initials in the first 5 columns to identify a change. These are outdated methods for tracking source changes ahen tools like Git handle the change tracking automaticlly in a source member.   
 
 # Feedback
-**Please submit feedback as issues on the GitHub issues tab.** 
+Please submit feedback as issues on the GitHub issues tab.
+
+You can also feel free to reach out via email:  richard@mobigogo.net or richard@richardschoen.net  if needed.   
+
+
