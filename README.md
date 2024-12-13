@@ -3,9 +3,7 @@ This will be the distribution and support site for the Work with IBM i client.
 
 The goal of this project is to create a FREE Windows based alternative for PDM for IBM i.  
 
-I’m doing this more for some .Net 6 practice, but so far it appears to be quite useful and the core app is FREE to use. 
-
-❗.Net 9 version coming shortly very soon.
+I’m started this more for some .Net WinForms practice, but so far it appears to be quite useful and the core app is FREE to use. 
 
 The purpose of Work with IBM i is to provide a usable ```Windows based replacement for PDM``` on the 5250 green screen to work with IBM i source members.  
 
@@ -24,22 +22,17 @@ SSH connectivity is used for communications with the IBM i operating system. Use
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/9791508/188206784-4e06bbce-bdd4-430a-8553-ff5891dc5881.png">
 
 # Downloading the latest release 
-https://github.com/richardschoen/workwithibmipdm/releases/tag/v1.0.1.5-dev
+https://github.com/richardschoen/workwithibmipdm/releases/tag/v1.0.1.8-dev
 
-The app installer is currently a self-extracting ZIP archive which will install app to: ```C:\Program Files (x86)\MobiGoGo\MBWorkWithIBMi```
+The app installer is currently a ZIP archive.    
 
-Run the setup zip self extractor as Administrator so the application gets properly unzipped to:
-```C:\Program Files (x86)\MobiGoGo\MBWorkWithIBMi```
+You can unzip the installation to anywhere, but a good location might be: ```C:\Program Files\MobiGoGo\MBWorkWithIBMi```
 
 Then run the app or create a short cut to the app executable:
-```C:\Program Files (x86)\MobiGoGo\MBWorkWithIBMi\MBWorkWithIBMi.exe```
+```MBWorkWithIBMi.exe```
 
 Your AppSettings.xml file with personalized settings will get created here:
 ```C:\Users\<username>\AppData\Roaming\MobiGoGo, LLC\Work with IBM i\AppSettings.xml```
-
-```Note: Make sure to Run As Administrator or app will not install.```  
-
-***Installation and Runtime for MBWorkWithIBMi.exe are signed by Richard Schoen***
 
 # IBM i Requirements
 IBM i V7R3 and above.
@@ -55,19 +48,19 @@ Yum package xmlservice-cli must be installed.
 There may be a few others I have not listed yet.....
 
 # PC Requirements
-Windows 7 and above. So far only tested on Windows 10 and 11.
+Windows 10 and above. So far only tested on Windows 10 and 11.
 
-App is .Net 6 so no special .Net runtimes or frameworks should be needed.
+App is based on .Net 9 so no special .Net runtimes or frameworks should be needed other than the app package.
 
 # Source sequence numbers and source dates
-
+❗ Source sequence numbers and source date are NOT kept when a source member is replaced.
 ```
-Note: If you use Work with IBM i to download and edit source members, line 
+If you use Work with IBM i to download and edit source members, line 
 numbers and source dates are NOT preserved. We're assuming you're stepping 
 in to the brave new world of using PCs to edit your source members where
-binary changes and git can show you exactly what has changed instead of 
+binary changes and Git can show you exactly what has changed instead of 
 relying on source sequence numbers and dates which are outdated methods 
-of tracking source changes.
+for tracking source changes.
 ```
 
 # Feedback
