@@ -53,6 +53,10 @@ Yum package xmlservice-cli must be installed.
 
 ❗SSH key files in puTTYgen format are supported by SSH.Net which is the SSH component used. OpenSSH key files can be converted to puTTYgen format using puTTYgen. https://www.puttygen.com    
 
+The app creates a library named: ```TMPMB``` for temporary objects. If you ever find any objects in this library it can be safely cleared.   
+
+The app creates and uses a temporary IFS directory named: ```/tmp/workwithibmi```. If you ever find objects in the directory the directory can be safely cleared.    
+
 There may be a few others I have not listed yet.....
 
 # PC Requirements
