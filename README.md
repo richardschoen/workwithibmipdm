@@ -3,7 +3,7 @@ This is the distribution and support site for the Work with IBM i client project
 
 I started this project more for some .Net Core WinForms practice, but so far it appears to be quite useful and the core app is FREE to use. 
 
-The purpose of Work with IBM i is to provide a usable ```Windows based replacement for PDM``` on the 5250 green screen to work with IBM i source members. 
+The purpose of Work with IBM i is to provide a usable ```Windows based replacement for PDM``` for the 5250 green screen version of PDM to work with IBM i source members without needing a green screen. 
 
 Work with IBM i supports integration with iForGit which is the subscription based Git source client for IBM i that I created. Learn more here: https://www.iforgit.com or https://www.github.com/richardschoen/iforgit
 
