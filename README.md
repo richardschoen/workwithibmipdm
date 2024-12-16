@@ -32,7 +32,7 @@ https://github.com/richardschoen/workwithibmipdm/releases/tag/v1.0.1.8-dev
 
 The app installer is currently a ZIP archive.    
 
-You can unzip the installation to any directory, but a good location might be: ```C:\Program Files\MobiGoGo\MBWorkWithIBMi``` or simply ```C:\MBWOrkwithIBMi```   
+You can unzip the installation to any directory, but a good location might be: ```C:\Program Files\MobiGoGo\MBWorkWithIBMi``` or simply ```C:\MBWorkwithIBMi```   
 
 Then run the app or create a short cut to the app executable:
 ```MBWorkWithIBMi.exe```
