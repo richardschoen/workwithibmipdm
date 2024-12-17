@@ -1,7 +1,7 @@
 # Work with IBM i - Programming Development Manager for Windows (PDM)
 This is the distribution and support site for the Work with IBM i client project. 
 
-Lastest Version: ```V1.0.1.9-dev```
+Latest Version: ```V1.0.1.9-dev```
    
 I started this project more for some .Net Core WinForms practice, but so far it appears to be quite useful and the core app is FREE to use. 
 
