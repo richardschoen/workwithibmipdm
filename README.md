@@ -70,7 +70,7 @@ App is based on .Net 9 so no special .Net runtimes or frameworks should be neede
 #### Warning about source dates and sequence numbers
 ❗ ⚠️ Source sequence numbers and source date are NOT preserved when a source member is replaced.    
 
-If you use Work with IBM i to download and edit source members, line numbers and source dates are NOT preserved. We're assuming you're stepping in to the brave new world of using PCs to edit your source members where binary line changes and Git or tools like WinMerge can show you exactly what has changed in a source member instead of relying on source sequence numbers and dates or initials in the first 5 columns to identify a change. These are outdated methods for tracking source changes ahen tools like Git handle the change tracking automaticlly in a source member.   
+If you use Work with IBM i to download and edit source members, line numbers and source dates are NOT preserved. We're assuming you're stepping in to the brave new world of using PCs to edit your source members where binary line changes and Git or tools like WinMerge can show you exactly what has changed in a source member instead of relying on source sequence numbers and dates or initials in the first 5 columns to identify a change. Source dates and sequence numbers are outdated methods for tracking source changes when tools like Git handle the change tracking automatically in a source member.   
 
 # Feedback
 Please submit feedback as issues on the GitHub issues tab.
