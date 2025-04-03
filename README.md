@@ -72,9 +72,11 @@ App is based on .Net 9 so no special .Net runtimes or frameworks should be neede
 
 If you use Work with IBM i to download and edit source members, line numbers and source dates are NOT preserved. We're assuming you're stepping in to the brave new world of using PCs to edit your source members where binary line changes and Git or tools like WinMerge can show you exactly what has changed in a source member instead of relying on source sequence numbers and dates or initials in the first 5 columns to identify a change. Source dates and sequence numbers are outdated methods for tracking source changes when tools like Git handle the change tracking automatically in a source member.   
 
-# Feedback
+# Feedback, Developer Training and Support for Git
 Please submit feedback as issues on the GitHub issues tab.
 
-You can also feel free to reach out via email:  richard@mobigogo.net or richard@richardschoen.net  if needed.   
+You can also feel free to reach out via email:  richard@mobigogo.net or richard@richardschoen.net if needed.
 
+And if you're looking for an easy to implement source management solution for IBM i Source Members and git, look no further than iForGit. https://www.iforgit.com
 
+MobiGoGo also provides mobile development, workflow and process automation consulting directly or in conjunction with the Seiden Group: https://www.seidengroup.com
