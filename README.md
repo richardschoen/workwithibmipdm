@@ -78,6 +78,6 @@ Please submit feedback as issues on the GitHub issues tab.
 You can also feel free to reach out via email:  richard@mobigogo.net or richard@richardschoen.net if needed.   
 
 
-And if you're looking for an easy to implement source management solution for IBM i Source Members and git, look no further than iForGit. https://www.iforgit.com
+And if you're looking for an easy to implement source management solution for IBM i Source Members and Git, look no further than iForGit. https://www.iforgit.com
 
 MobiGoGo also provides mobile development, workflow and process automation consulting directly: https://www.mobigogo.net
