@@ -9,7 +9,7 @@ The purpose of Work with IBM i is to provide a usable ```Windows based replaceme
 
 Work with IBM i supports integration with iForGit which is the subscription based Git source client for IBM i that I created. Learn more here: https://www.iforgit.com or https://www.github.com/richardschoen/iforgit
 
-Since PDM and SEU are being deprecated over time, The goal of this project is to create a FREE Windows based alternative for PDM developers who are just moving their development to the Windows desktop.   
+Since PDM and SEU are being deprecated over time, The goal of this project is to create a FREE Windows based alternative for PDM developers who are just startng to move their development to the Windows desktop.   
 
 Both VS Code and RDi are good development enviroments, but it's good to have options. 
 
