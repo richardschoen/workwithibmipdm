@@ -1,6 +1,10 @@
 # Work with IBM i - Programming Development Manager for Windows (PDM)
 This is the distribution and support site for the Work with IBM i client project. 
 
+Since PDM and SEU are being deprecated over time, The goal of this project is to create a FREE Windows based alternative for PDM developers who are just starting the journey to move their development to the Windows desktop.   
+
+Both VS Code and RDi are good development enviroments, but it's good to have options. Especially ones that give you editor freedom of choice and ability to use existing PDM user options. 
+
 Latest Version: ```V1.0.1.9-dev```
    
 I started this project more for some .Net Core WinForms practice, but so far it appears to be quite useful and the core app is FREE to use. 
@@ -8,10 +12,6 @@ I started this project more for some .Net Core WinForms practice, but so far it 
 The purpose of Work with IBM i is to provide a usable ```Windows based replacement for PDM``` for the 5250 green screen version of PDM to work with IBM i source members without needing a green screen. 
 
 Work with IBM i supports integration with iForGit which is the subscription based Git source client for IBM i that I created. Learn more here: https://www.iforgit.com or https://www.github.com/richardschoen/iforgit
-
-Since PDM and SEU are being deprecated over time, The goal of this project is to create a FREE Windows based alternative for PDM developers who are just startng to move their development to the Windows desktop.   
-
-Both VS Code and RDi are good development enviroments, but it's good to have options. 
 
 The app contains a built-in text editor, but many people these days want to use VS Code for editing source. The application supports using VS Code and the relevant syntax editors available as part of the ```Code for i``` plugins.
 
