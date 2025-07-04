@@ -15,7 +15,7 @@ Work with IBM i supports integration with iForGit which is the subscription base
 
 The app contains a built-in text editor, but many people these days want to use VS Code for editing source. The application supports using VS Code and the relevant syntax editors available as part of the ```Code for i``` plugins.
 
-**You can actually use any Windows based editor of choice** to edit or view source file content: including ```Notepad```, ```Notepad++```, ```VS Code```, ```RDi```, etc. ```internal``` is the default setting for the viewer and editor to utilize the internal text editor. You can also use a separate editor and viewer if desired.  
+**You can actually use any Windows based editor of choice** to edit or view source file content: including ```Notepad```, ```Notepad++```, ```VS Code```, ```internal```. ```internal``` is the default setting for the viewer and editor to utilize the internal text editor. You can also use a separate editor and viewer if desired. To use RDI requires a modified strategy of using ```Work with IBM i``` to download files and then edit locally with RDI. See this link:   
 
 **PDM user options** are supported as long as they don't expect to interface with a 5250 interface. The PDM options file setting defaults to: ```QGPL/QAUOOPT``` and can be changed in the settings file. This is a great way to re-use your existing PDM user option commands from Work with IBM i.
 
