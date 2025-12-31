@@ -4,6 +4,8 @@ This is the distribution and support site for the FREE Work with IBM i client pr
 ## News
 ❗ 12/29/2025 - Coming soon in early 2026. Work with IBM i gains IBM i connectivity without the need for SSH.  We're removing the need to use SSH for connectivity with the Work for IBM i product. Connectivity will work over the same ports using by IBM i access. (446-446, 8470-8479).
 
+```If you plan to download and test, please wait for the new version that doesn't use SSH. Should be first week of 2026.```
+
 ## Overview
 Since PDM and SEU are being deprecated over time, The goal of this project is to create a FREE Windows based alternative for PDM developers who are just starting the journey to move their development to the Windows desktop.   
 
