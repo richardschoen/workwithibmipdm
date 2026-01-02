@@ -2,13 +2,17 @@
 This is the distribution and support site for the FREE Work with IBM i client project. 
 
 ## News
-❗ 1/2/2026 - The new beta version of the **Work with IBM i** app ```V1.0.13``` is now available. For initial distribution control I'm asking people to send me a request email and I will provie a download link. I don't want this in wide distribution until I feel comfortable things are working as expected.
+❗ 1/2/2026 - The new beta version of the ```Work with IBM i app V1.0.1.13``` is ```now available```. 
+
+For initial distribution control I'm asking people to send me a request email and I will provide a download link. I don't want this app in wide distribution until I feel comfortable things are working as expected.
 
 Email: richard@mobigogo.net -or- richard@richardschoen.net
 
-```V1.0.13``` will immediately deprecate older versions that were using SSH connectivity. The new version utilizes IBM i Access port functionality so you will need access to your IBM i system over ports (446-449, 8470-8479). I may bring back SSh functionality at some point, but the direct connect is so much nicer for performance and session control.
+⬛ ```V1.0.1.13``` will immediately deprecate older versions of ```Work with IBM i ``` that were using SSH connectivity. The new version utilizes IBM i Access port functionality so you will need access to your IBM i system over ports (446-449, 8470-8479). I may bring back SSH functionality at some point, but the direct connect is so much nicer for performance and session control.
 
-```Please DO NOT download V1.0.1.19 or older releases. Only work with version V1.0.1.13```
+All questions and issues should be reported via this GitHub site.  You'll need to open an issue with detailed info and screenshots on what your problem is if something isn't working right.
+
+```Please DO NOT download V1.0.1.9 or older releases. Only work with version V1.0.1.13```
 
 ## Overview
 Since PDM and SEU are being deprecated over time, The goal of this project is to create a FREE Windows based alternative for PDM developers who are just starting the journey to move their development to the Windows desktop.   
@@ -55,15 +59,9 @@ Your AppSettings.xml file with personalized settings will get created here:
 ## IBM i Requirements
 IBM i V7R3 and above.
 
-SSH must be enabled and running for connectivity.
+IBM i access host servers must be running on ports (446-446 and 8470-8479)
 
-Open Source Package Management must be installed.
-
-XMLSERVICE library QXMLSERV must be installed.   
-
-Yum package xmlservice-cli must be installed.   
-
-❗SSH key files in puTTYgen format are supported by SSH.Net which is the SSH component used. OpenSSH key files can be converted to puTTYgen format using puTTYgen. https://www.puttygen.com    
+We are using the non-SSL enabled IBM Access ports. At some point we may use the SSL enabled ports, but not in the short term as the method we're using only works with non-SSL enabled ports currently.
 
 The app creates a library named: ```TMPMB``` for temporary objects. If you ever find any objects in this library it can be safely cleared.   
 
@@ -72,7 +70,7 @@ The app creates and uses a temporary IFS directory named: ```/tmp/workwithibmi``
 There may be a few others I have not listed yet.....
 
 ## PC Requirements
-Windows 10 and above. So far only tested on Windows 10 and 11.   
+Windows 10 and above. So far only tested on Windows 11.   
 
 App is based on .Net 10 so no special .Net runtimes or frameworks should be needed other than the app package.
 
