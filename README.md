@@ -6,7 +6,7 @@ This is the distribution and support site for the FREE Work with IBM i client pr
 
 For initial distribution control I'm asking people to send me a request email and I will provide a download link. I don't want this app in wide distribution until I feel comfortable things are working as expected.
 
-Title the email: ```Requesting Acccess to Work with IBM i V1.0.1.13```.    
+Title the email: ```Requesting Access to Work with IBM i V1.0.1.13```.    
    
 Email: richard@mobigogo.net -or- richard@richardschoen.net
 
