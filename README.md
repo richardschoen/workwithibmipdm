@@ -41,7 +41,9 @@ The Work with IBM i client also knows if a source member has already been downlo
 
 As a future enhancement .Net developers will be able to create their own alternatives to PDM user options using a C# plugin.
 
-❗SSH connectivity is used for communications with the IBM i operating system. User/password and SSH key files in puTTYgen format are supported. OpenSSH key files can be converted to puTTYgen format using puTTYgen. https://www.puttygen.com    
+❗IBM i access ports (446-449 and 8470-8479) are used for communications with the IBM i operating system. 
+
+Simply enter a user, password and the host name or IP address to your IBM i system and you should be able to connect. SSH is NOT required any more.
 
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/9791508/188206784-4e06bbce-bdd4-430a-8553-ff5891dc5881.png">
 
