@@ -21,7 +21,7 @@ Since PDM and SEU are being deprecated over time, The goal of this project is to
 
 Both VS Code and RDi are good development enviroments, but it's good to have options. Especially ones that give you editor freedom of choice and ability to use existing PDM user options. 
 
-Latest Version: ```V1.0.1.9-dev```
+Latest Version: ```V1.0.1.13```
    
 I started this project more for some .Net Core WinForms practice, but so far it appears to be quite useful and the core app is FREE to use. 
 
@@ -43,12 +43,12 @@ As a future enhancement .Net developers will be able to create their own alterna
 
 ❗IBM i access ports (```446-449``` and ```8470-8479```) are used for communications with the IBM i operating system. 
 
-Simply enter a user, password and the host name or IP address to your IBM i system and you should be able to connect. SSH is NOT required any more.
+Simply enter a user, password and the host name or IP address to your IBM i system and you should be able to connect. SSH is NO LONGER required.
 
 <img width="1013" height="638" alt="image" src="https://github.com/user-attachments/assets/cccb680d-dab3-4330-9633-b12a8f8a1b55" />
 
 ## Downloading the latest release 
-Send email request per above note.
+```Send email request per above note.```
 
 The app installer is currently a ZIP archive.    
 
@@ -64,11 +64,11 @@ The app automatically creates a work directory here:
 ```C:\tmp_workwithibmi```
 
 ## IBM i Requirements
-IBM i V7R3 and above.
+IBM i ```V7R3 and above```.
 
-IBM i access host servers must be running on ports (```446-449``` and ```8470-8479```)
+IBM i access host servers must be running on ports ```446-449``` and ```8470-8479```.
 
-We are using the non-SSL enabled IBM Access ports. At some point we may use the SSL enabled ports, but not in the short term as the method we're using only works with non-SSL enabled ports currently.
+We are using the non-SSL enabled IBM Access ports. At some point we may use the SSL enabled ports, but not in the short term as the method we're using only works with non-SSL enabled ports currently. And within the confines of your local network the non-SSL host server ports are probably acceptable for most shops.
 
 The app creates a library named: ```TMPMB``` for temporary objects. If you ever find any objects in this library it can be safely cleared.   
 
