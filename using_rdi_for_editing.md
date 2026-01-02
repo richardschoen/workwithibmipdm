@@ -6,3 +6,6 @@ Unfortunately so far I have not been able to find a way to just tell RDI to laun
 
 - Then you can use ```Work with IBMi``` to download and upload files but you can edit them from the local system connection filter you create in RDI.
 
+- RDI even lets you use its source code prompting for local files if connected to a remote system.
+ 
+
