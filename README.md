@@ -46,7 +46,7 @@ As a future enhancement .Net developers will be able to create their own alterna
 <img width="872" alt="image" src="https://user-images.githubusercontent.com/9791508/188206784-4e06bbce-bdd4-430a-8553-ff5891dc5881.png">
 
 ## Downloading the latest release 
-https://github.com/richardschoen/workwithibmipdm/releases/tag/v1.0.1.9-dev
+Send email request per above note.
 
 The app installer is currently a ZIP archive.    
 
@@ -57,6 +57,9 @@ Then run the app or create a short cut to the app executable:
 
 Your AppSettings.xml file with personalized settings will get created here:
 ```C:\Users\<username>\AppData\Roaming\MobiGoGo, LLC\Work with IBM i\AppSettings.xml```
+
+The app automatically creates a work directory here:  
+```C:\tmp_workwithibmi```
 
 ## IBM i Requirements
 IBM i V7R3 and above.
