@@ -91,6 +91,6 @@ If you use Work with IBM i to download and edit source members, line numbers and
 Please submit feedback as issues on the GitHub issues tab.
 
 You can also reach out via email:  richard@mobigogo.net or richard@richardschoen.net if needed, but a GitHub issue is preferred for questions and issues.   
-And if you're looking for an easy to implement a Git source management solution for your IBM i Source Members and Git, look no further than iForGit. https://www.iforgit.com
+And if you're looking for an easy to implement a Git source management solution for your IBM i Source Members and Git, look no further than iForGit. https://www.iforgit.com   
 
 MobiGoGo also provides modernization, web and mobile development, API integration, workflow and process automation consulting directly: https://www.mobigogo.net
