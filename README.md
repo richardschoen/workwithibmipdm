@@ -41,7 +41,7 @@ The Work with IBM i client also knows if a source member has already been downlo
 
 As a future enhancement .Net developers will be able to create their own alternatives to PDM user options using a C# plugin.
 
-❗IBM i access ports (446-449 and 8470-8479) are used for communications with the IBM i operating system. 
+❗IBM i access ports (```446-449``` and ```8470-8479```) are used for communications with the IBM i operating system. 
 
 Simply enter a user, password and the host name or IP address to your IBM i system and you should be able to connect. SSH is NOT required any more.
 
@@ -66,7 +66,7 @@ The app automatically creates a work directory here:
 ## IBM i Requirements
 IBM i V7R3 and above.
 
-IBM i access host servers must be running on ports (446-446 and 8470-8479)
+IBM i access host servers must be running on ports (```446-449``` and ```8470-8479```)
 
 We are using the non-SSL enabled IBM Access ports. At some point we may use the SSL enabled ports, but not in the short term as the method we're using only works with non-SSL enabled ports currently.
 
