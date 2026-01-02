@@ -19,7 +19,7 @@ All questions and issues should be reported via this GitHub site.  You'll need t
 ## Overview
 Since PDM and SEU are being deprecated over time, The goal of this project is to create a FREE Windows based alternative for PDM developers who are just starting the journey to move their development to the Windows desktop.   
 
-Both VS Code and RDi are good development enviroments, but it's good to have options. Especially ones that give you editor freedom of choice and ability to use existing PDM user options. 
+Both VS Code and RDi are good development environments, but it's good to have options. Especially ones that give you editor freedom of choice and ability to use existing PDM user options. 
 
 Latest Version: ```V1.0.1.13```
    
