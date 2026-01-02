@@ -45,7 +45,7 @@ As a future enhancement .Net developers will be able to create their own alterna
 
 Simply enter a user, password and the host name or IP address to your IBM i system and you should be able to connect. SSH is NOT required any more.
 
-<img width="872" alt="image" src="https://user-images.githubusercontent.com/9791508/188206784-4e06bbce-bdd4-430a-8553-ff5891dc5881.png">
+<img width="1013" height="638" alt="image" src="https://github.com/user-attachments/assets/cccb680d-dab3-4330-9633-b12a8f8a1b55" />
 
 ## Downloading the latest release 
 Send email request per above note.
@@ -90,8 +90,7 @@ If you use Work with IBM i to download and edit source members, line numbers and
 ## Feedback, Developer Training and Support for Git
 Please submit feedback as issues on the GitHub issues tab.
 
-You can also feel free to reach out via email:  richard@mobigogo.net or richard@richardschoen.net if needed.   
+You can also reach out via email:  richard@mobigogo.net or richard@richardschoen.net if needed, but a GitHub issue is preferred for questions and issues.   
+And if you're looking for an easy to implement a Git source management solution for your IBM i Source Members and Git, look no further than iForGit. https://www.iforgit.com
 
-And if you're looking for an easy to implement source management solution for IBM i Source Members and Git, look no further than iForGit. https://www.iforgit.com
-
-MobiGoGo also provides mobile development, workflow and process automation consulting directly: https://www.mobigogo.net
+MobiGoGo also provides modernization, web and mobile development, API integration, workflow and process automation consulting directly: https://www.mobigogo.net
