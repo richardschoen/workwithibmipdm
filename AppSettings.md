@@ -1,12 +1,14 @@
 # Work with IBM i Settings in AppSettings.xml
 These are the available app settings that can be edited via the ```File/Settings``` menu.
 
-```File/Settings``` will launch the settings file using the built-in editor for editing the XML settings.   
+```File/Settings/Edit Settings``` will launch the settings file using the built-in editor for editing the XML settings.   
+
+❗Be careful when editing XML settings as you can mess up your XML file settings. You might want to consider making a backup of your AppSettings.xml file via the ```File/Settings/Backup Settings File``` menu option. It creates a timestamped backup of the AppSettings.xml file in this format: ```AppSettings_yyyymmddhhmmss.xml```
 
 ❗ After making changes to settings, simply save the settings file and restart the app in order for new settings to take effect.
 
 ## devlib
-Developer library for checkout/checkin if using iForGit MBCHKO/MBCHKI commands to check out source members and check them back in.
+Developer library for checkout/checkin if using iForGit MBCHKO/MBCHKI commands to check out source members and check them back in.   
 ```Default=IFORGITTMP```
 
 ## enableiforgit   
@@ -18,7 +20,15 @@ This setting determines whether iForGit source management options are visible on
 If you don't use iForGit and don't want to see the iForGit menu options, simply change this setting to ```False```.   
 
 ## links
-This setting contains a list of one or more web site links that can be accessed fro the links menu. Each option contains: Site Desc and URL Link separated by pipe. Then each entry ends with a comma
+This setting contains a list of one or more web site links that can be accessed from the links menu.   
+Each option contains: ```Site Desc``` and ``URL Link``` separated by pipe. Then each entry ends with a comma.
+
+Example:
+```
+Work with IBM i GitHub Site|https://github.com/richardschoen/workwithibmipdm,
+MobiGoGo - Automation-API integration-Mobile and Web Development|https://www.mobigogo.net,
+iForGit - Git Versioning for Classic Source Files|https://www.iforgit.com,
+```
 
 ## sourcefilelastused
 This list is dyamically build and contains a list of recently used srclibrary/srcfile combination.
@@ -45,40 +55,42 @@ Internal|Internal,VS Code|vscode://file/@@FILENAME,Notepad|notepad.exe,Notepad++
 This is the application title. ```Work with IBM i - Programming Development Manager (PDM)```
 
 ## ibmihost
-This is the last used IBM i host name or ip address to connect to. (Automatically updated)
+This is the last used IBM i host name or ip address to connect to. (Automatically updated with last used.)
 
 ## ibmiuser
-This is the last IBM i user name that was used to connect with. (Automatically updated)
+This is the last IBM i user name that was used to connect with. (Automatically updated with last used.)
 
 ## ibmipass
-This setting is not used. Passwords are not stored.
+This setting is not used. Passwords are not stored.   
 
 ## ibmiport
-This is the last SSH port connected to. ```Default-22``` (Automatically updated)   
-
+This is the last SSH port connected to. ```Default-22``` (Automatically updated with last used.)    
+   
 ```Currently not used with direct connection.```
 
 ## ibmiuseprivatekey
-Use private key.
-
+Use private key.   
+   
 ```Currently not used with direct connection.```
 
 ## ibmiuseprivatekeyfile
-Private key file.
-
+Private key file.   
+   
 ```Currently not used with direct connection.```
 
 ## lastsourcefile
-This is the last source file that was listed. (Automatically updated)
+This is the last source file that was listed. (Automatically updated with last used.)
 
 ## lastsourcelib
-This is the last source file library where the lastsource file is located. (Automatically updated)
+This is the last source file library where the lastsource file is located. (Automatically updated with last used.)
 
 ## lastifsdir 
-This is the last IFS directory listed. (Not currently enabled)
+This is the last IFS directory listed. (Not currently enabled.)
 
 ## sourceeditorexe
-This is the Windows editor app to use when editing source members. ```Default - Internal```
+This is the Windows editor app to use when editing source members.   
+
+```Default - Internal```
 
 Any Windows editor that accepts a filename as a parameter can be used.
 
@@ -102,17 +114,19 @@ This is the commandline argument passed when the source editor is launched. ```D
 Use Windows ShellExecute to launch viewer app. ```Default-True```
 
 ## logfile
-This is the log file to use for logging operations. ```Default-c:\tmp_workwithibmi\logfile.txt``` (Currently cannot change location)
+This is the log file to use for logging operations.   
+
+```Default-c:\tmp_workwithibmi\logfile.txt``` (Currently cannot change location)
 
 ## sourcelibrarylist
-Set the setting with comma delimited list of libraries if you only want to view a select list of libraries.
+Set the setting with comma delimited list of libraries if you only want to view a select list of libraries in the source library dropdown.
 
 Ex: QTEMP,QGPL,MYLIB1
 
 If you want to use this setting, set ```loadalllibrarylist``` setting ```to False```
 
 ## ibmisystemlist
-If you want to pre-populate a list of IBM i systems to connect to, set this value in the format of: ```systemname,systemname```
+If you want to pre-populate a list of IBM i systems to connect to, set this value in the format of:   ```systemname,systemname```
 
 ```Ex: system1,system2```
 
@@ -123,14 +137,35 @@ Load a list of all libraries. ```Default-True```
 
 ## srctogitdefaults
 This CL command template drives the iForGit SRCTOGIT command defaults for committing source members from a source file to selected git repo.
-
+```
+IFORGIT/SRCTOGIT SRCFILE(&amp;L/&amp;F) 
+SRCMBR(&amp;N) 
+SRCHEADER(*YES) 
+SRCDATSEQ(*NO) 
+REPLACE(*YES) 
+EDITOPT(*NONE) 
+VALIDREPO(*YES) 
+IFSMKDIR(*YES) 
+INITREPO(*YES) 
+COMMITOPT(*COMMITSYNC) 
+COMMENT(*DATEUSER)
+```
 Since the command is stored in XML format, &amp should be used to represent the ampersand character: &.
 
 More info on iForGit to help **IBM i developers eliminate Awkward Git Integration.** http://www.iforgit.com
 
 ## srcfrmgitdefaults
 This CL command template drives the iForGit SRCFRMGIT command defaults for pulling committed source members from selected git repo back to source file.
-
+```
+IFORGIT/SRCFRMGIT IFSREPODIR(*LIBREPODTAARA) 
+FROMIFSFIL(*LIBFILEPATH) 
+SRCFILE(&amp;L/&amp;F) 
+SRCMBR(&amp;N) 
+SRCTYPE('&amp;T') 
+SRCDATSEQ(*NO) 
+VALIDREPO(*YES) 
+COMMITOPT(*COMMITSYNC)
+```
 Since the command is stored in XML format, &amp should be used to represent the ampersand character: &.
 
 More info on iForGit to help **IBM i developers eliminate Awkward Git Integration.** http://www.iforgit.com
