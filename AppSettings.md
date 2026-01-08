@@ -454,19 +454,15 @@ Font name for editor and viewer.  Font name and family is changed via font selec
 ```Default - Courier New```
 
 ## devlib
-This is the developer library where source members can be checked out to if you have a license for iForGit. 
+This is the developer library where source members can be checked out to if you have a license for iForGit. Used by the ```IFORGIT/MBCHKO``` and ```IFORGIT/MBCHKI``` commands.
 
 ```Default - IFORGITTMP```
 
 ## mainpanelbackcolor
-Font name for editor and viewer.  Font name and family is changed via font selection on viewer and editor forms.    
-
-```Default - Courier New```
+This setting is used to set the backcolor for the alternating row colors in the Data Grids. ```Defaults to "LightSteelBlue``` if missing it is set as ```LightSteelBlue``` for default.
 
 ## toppanelbackcolor
-Font name for editor and viewer.  Font name and family is changed via font selection on viewer and editor forms.    
-
-```Default - Courier New```
+This setting is used to set the backcolor for top panels above the source list data grids. ```Defaults to "Gainsboro``` if missing it is also set as ```Gainsboro``` for default.   
 
 ## namedlibrarylists
 Set up one or more named library lists. Format: ```Default|QTEMP,QGPL;QSHONI Dev|QTEMP,QGPL,QSHONI```.   
@@ -477,7 +473,7 @@ There is also a dropdown on the main form to select and apply the selected libra
 Delete temp IFS files after downloading. ```Default=True```. If user is having issues with character conversion, this setting can be set to False and the IFS files created when uploading and downloading files are left in the ```/tmp/workwithibmi``` IFS folder and can be accessed via the greenscreen with the WRKLNK command: ```WRKLNK OBJ('/tmp/workwithibmi/*')```. Once the file list is up, the files can be viewed with Option 5. Option 8 will show the Coded character set ID the IBM i has set for the IFS file. The CCSID should normally be: 1208 if no default CCSID settings have not been changes in the Work with IBM i AppSettings.xml file.
 
 ## ccsid
-Added new setting for CCSID in case we need to use a custom CCSID for data conversions when exporting and importing source members. CCSID setting is not implemented yet as the app jobs should already use the CCSID for the appropriate user profile automatically. ```Default=37```
+Added new setting placeholder for CCSID in case we need to use a custom CCSID for data conversions when exporting and importing source members. CCSID setting is not implemented yet as the app jobs should already use the CCSID for the appropriate user profile automatically. ```Default=37```
 
 ## iasp
 Determine which IASP a library belongs to based on IASP setting.    
