@@ -8,8 +8,8 @@ These are the available app settings that can be edited via the ```File/Settings
 ❗ After making changes to settings, simply save the settings file and restart the app in order for new settings to take effect. As of ```V1.0.1.16``` the restart is not necessary.
 
 ## devlib
-Developer library for checkout/checkin if using iForGit MBCHKO/MBCHKI commands to check out source members and check them back in.   
-```Default=IFORGITTMP```
+This is the developer library where source members can be checked out to if you have a license for iForGit. Used by the ```IFORGIT/MBCHKO``` and ```IFORGIT/MBCHKI``` commands.    
+```Default - IFORGITTMP```
 
 ## enableiforgit   
 This setting determines whether iForGit source management options are enabled. ```Default-True```    
@@ -452,11 +452,6 @@ Font name for editor and viewer. Font name and family is changed via font select
 Font name for editor and viewer.  Font name and family is changed via font selection on viewer and editor forms.    
 
 ```Default - Courier New```
-
-## devlib
-This is the developer library where source members can be checked out to if you have a license for iForGit. Used by the ```IFORGIT/MBCHKO``` and ```IFORGIT/MBCHKI``` commands.
-
-```Default - IFORGITTMP```
 
 ## mainpanelbackcolor
 This setting is used to set the backcolor for the alternating row colors in the Data Grids. ```Defaults to "LightSteelBlue``` if missing it is set as ```LightSteelBlue``` for default. List of available  colors: https://github.com/richardschoen/workwithibmipdm/blob/main/availablecolors.md
