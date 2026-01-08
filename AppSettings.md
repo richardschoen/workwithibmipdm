@@ -477,7 +477,7 @@ There is also a dropdown on the main form to select and apply the selected libra
 Delete temp IFS files after downloading. ```Default=True```. If user is having issues with character conversion, this setting can be set to False and the IFS files created when uploading and downloading files are left in the ```/tmp/workwithibmi``` IFS folder and can be accessed via the greenscreen with the WRKLNK command: ```WRKLNK OBJ('/tmp/workwithibmi/*')```. Once the file list is up, the files can be viewed with Option 5. Option 8 will show the Coded character set ID the IBM i has set for the IFS file. The CCSID should normally be: 1208 if no default CCSID settings have not been changes in the Work with IBM i AppSettings.xml file.
 
 ## ccsid
-Added new setting for CCSID in case we need to use a custom CCSID for data conversions wehn exporting and importing source members. CCSID setting is not implemented yet as the app jobs should already use the CCSID for the appropriate user profile automatically. ```Default=37```
+Added new setting for CCSID in case we need to use a custom CCSID for data conversions when exporting and importing source members. CCSID setting is not implemented yet as the app jobs should already use the CCSID for the appropriate user profile automatically. ```Default=37```
 
 ## iasp
 Determine which IASP a library belongs to based on IASP setting.    
