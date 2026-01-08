@@ -27,9 +27,11 @@ Center the main form on startup.
 
 All grids now use the same alternating row background color.   
 
-Added mainpanelbackground setting. Defaults to "LightSteelBlue" if missing or set as "LightSteelBlue" for default.   
+Added ```mainpanelbackground``` setting. Defaults to "LightSteelBlue" if missing or set as "LightSteelBlue" for default.   
+See this link for available color choices. https://github.com/richardschoen/workwithibmipdm/blob/main/availablecolors.md    
+LightSteelBlue and DarkSeaFgreen are tow colors thst I like.   
 
-Added toppanelbackground setting. Defaults to "Gainsboro" blue if missing or set as "Gainsboro".   
+Added ```toppanelbackground``` setting. Defaults to "Gainsboro" blue if missing or set as "Gainsboro".   
 
 If editorfontsize is 0, we now default to 10 to avoid the following emSize error on startup:
 ```
@@ -42,7 +44,7 @@ Was getting odd error "Geri AI" thrown when trying to Live Edit an IFS file. Res
 Added ```deletetempmifsfiles``` setting. Defaults=True which will delete temp IFS files after downloading.
 If customer is having issues with character conversion, this setting can be set to False and the IFS files created
 when uploading and downloading files are left in the ```/tmp/workwithibmi``` IFS folder and can be accessed via the greenscreen with the 
-WRKLNK command: ```WRKLNK OBJ('/tmp/workwithibmi/*')```. Once the lfile ist is up, the files can be viewed with Option 5.
+WRKLNK command: ```WRKLNK OBJ('/tmp/workwithibmi/*')```. Once the file list is up, the files can be viewed with Option 5.
 Option 8 will show the Coded character set ID the IBM i has set for the IFS file. The CCSID should normmally be: 1208 if no default 
 CCSID settings have not been changes in the WOrk with IBMM i AppSettings.xml file. 
 
@@ -54,13 +56,6 @@ Determine which IASP a library belongs to based on IASP setting.
 If empty setting, we use DB2 service to retreive ASP info for a library.    
 If hard coded value such as: ```iasp01``` we use that value for the IASP.   
 If set to ```*NONE```, we assume no iasp.  Default value: *NONE.   
-
+   
 Turn settings dialog into a modal dialog. Upon closing the settings dialog we will reload all settings automatically without  needing to restart the app.  
-
-
-
-
-
-
-
 
