@@ -9,6 +9,7 @@ These are the available app settings that can be edited via the ```File/Settings
 
 ## devlib
 This is the developer library where source members can be checked out to if you have a license for iForGit. Used by the ```IFORGIT/MBCHKO``` and ```IFORGIT/MBCHKI``` commands.    
+
 ```Default - IFORGITTMP```
 
 ## enableiforgit   
