@@ -5,7 +5,7 @@ These are the available app settings that can be edited via the ```File/Settings
 
 ❗Be careful when editing XML settings as you can mess up your XML file settings. You might want to consider making a backup of your AppSettings.xml file via the ```File/Settings/Backup Settings File``` menu option. It creates a timestamped backup of the AppSettings.xml file in this format: ```AppSettings_yyyymmddhhmmss.xml```
 
-❗ After making changes to settings, simply save the settings file and restart the app in order for new settings to take effect.
+❗ After making changes to settings, simply save the settings file and restart the app in order for new settings to take effect. As of ```V1.0.1.16``` the restart is not necessary.
 
 ## devlib
 Developer library for checkout/checkin if using iForGit MBCHKO/MBCHKI commands to check out source members and check them back in.   
