@@ -459,10 +459,10 @@ This is the developer library where source members can be checked out to if you 
 ```Default - IFORGITTMP```
 
 ## mainpanelbackcolor
-This setting is used to set the backcolor for the alternating row colors in the Data Grids. ```Defaults to "LightSteelBlue``` if missing it is set as ```LightSteelBlue``` for default.
+This setting is used to set the backcolor for the alternating row colors in the Data Grids. ```Defaults to "LightSteelBlue``` if missing it is set as ```LightSteelBlue``` for default. List of available  colors: https://github.com/richardschoen/workwithibmipdm/blob/main/availablecolors.md
 
 ## toppanelbackcolor
-This setting is used to set the backcolor for top panels above the source list data grids. ```Defaults to "Gainsboro``` if missing it is also set as ```Gainsboro``` for default.   
+This setting is used to set the backcolor for top panels above the source list data grids. ```Defaults to "Gainsboro``` if missing it is also set as ```Gainsboro``` for default. List of available  colors: https://github.com/richardschoen/workwithibmipdm/blob/main/availablecolors.md
 
 ## namedlibrarylists
 Set up one or more named library lists. Format: ```Default|QTEMP,QGPL;QSHONI Dev|QTEMP,QGPL,QSHONI```.   
