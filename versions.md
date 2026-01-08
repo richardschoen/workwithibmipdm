@@ -47,7 +47,7 @@ If customer is having issues with character conversion, this setting can be set 
 when uploading and downloading files are left in the ```/tmp/workwithibmi``` IFS folder and can be accessed via the greenscreen with the 
 WRKLNK command: ```WRKLNK OBJ('/tmp/workwithibmi/*')```. Once the file list is up, the files can be viewed with Option 5.
 Option 8 will show the Coded character set ID the IBM i has set for the IFS file. The CCSID should normally be: 1208 if no default 
-CCSID settings have not been changes in the Work with IBM i AppSettings.xml file. 
+CCSID settings have not been changed in the Work with IBM i ```AppSettings.xml``` file. 
 
 Added ```namedlibrarylists``` setting to hold multiple library list settings. Format: ```Default|QTEMP,QGPL;QSHONI Dev|QTEMP,QGPL,QSHONI```.   
 There is also a dropdown on the main form to select and apply the selected library list.
