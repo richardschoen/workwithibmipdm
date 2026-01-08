@@ -27,13 +27,13 @@ Center the main form on startup.
 
 All grids now use the same alternating row background color.   
 
-Added ```mainpanelbackground``` setting. Defaults to "LightSteelBlue" if missing or set as "LightSteelBlue" for default.   
+Added ```mainpanelbackground``` setting. Defaults to ```LightSteelBlue``` if missing or set as ```LightSteelBlue``` for default.   
 See this link for available color choices. https://github.com/richardschoen/workwithibmipdm/blob/main/availablecolors.md    
-LightSteelBlue and DarkSeaFgreen are tow colors thst I like.   
+```LightSteelBlue``` and ```DarkSeaGreen``` are tow colors thst I like.   
 
-Added ```toppanelbackground``` setting. Defaults to "Gainsboro" blue if missing or set as "Gainsboro".   
+Added ```toppanelbackground``` setting. Defaults to ```Gainsboro``` if missing automatically set as ```Gainsboro```.   
 
-If editorfontsize is 0, we now default to 10 to avoid the following emSize error on startup:
+If ```editorfontsize``` is 0, we now default to 10 to avoid the following emSize error on startup:
 ```
 Startup Error - Value of '0' is not valid for 'emSize'. 'emSize' should be greater than 0 and less than or equal to System.Single.MaxValue. (Parameter 'emSize')
 ```
