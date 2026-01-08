@@ -480,9 +480,9 @@ Delete temp IFS files after downloading. ```Default=True```. If user is having i
 Added new setting for CCSID in case we need to use a custom CCSID for data conversions wehn exporting and importing source members. CCSID setting is not implemented yet as the app jobs should already use the CCSID for the appropriate user profile automatically. ```Default=37```
 
 ## iasp
-Determine which IASP a library belongs to based on IASP setting.  
-If ```empty``` setting, we use DB2 service to retreive IASP info for a library.  
-If ```hard coded``` value such as: ```iasp01`` we use that value for the IASP.   
-If set to ```*NONE```, we assume no iasp. ```Default value: *NONE```.
+Determine which IASP a library belongs to based on IASP setting.    
+If ```empty``` setting, we use DB2 service to retreive IASP info for a library.   
+If ```hard coded``` value such as: ```iasp01``` we use that value for the IASP.     
+If set to ```*NONE```, we assume no iasp. ```Default value: *NONE```.   
 
 
