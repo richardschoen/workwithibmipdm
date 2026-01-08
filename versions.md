@@ -28,8 +28,9 @@ Center the main form on startup.
 All grids now use the same alternating row background color.   
 
 Added ```mainpanelbackground``` setting. Defaults to ```LightSteelBlue``` if missing or set as ```LightSteelBlue``` for default.   
+
 See this link for available color choices. https://github.com/richardschoen/workwithibmipdm/blob/main/availablecolors.md    
-```LightSteelBlue``` and ```DarkSeaGreen``` are tow colors thst I like.   
+```LightSteelBlue``` and ```DarkSeaGreen``` are two colors that I like.   
 
 Added ```toppanelbackground``` setting. Defaults to ```Gainsboro``` if missing automatically set as ```Gainsboro```.   
 
@@ -48,7 +49,8 @@ WRKLNK command: ```WRKLNK OBJ('/tmp/workwithibmi/*')```. Once the file list is u
 Option 8 will show the Coded character set ID the IBM i has set for the IFS file. The CCSID should normally be: 1208 if no default 
 CCSID settings have not been changes in the Work with IBM i AppSettings.xml file. 
 
-Added ```namedlibrarylists``` setting to hold multiple library list settings. Format: ```Default|QTEMP,QGPL;QSHONI Dev|QTEMP,QGPL,QSHONI```  
+Added ```namedlibrarylists``` setting to hold multiple library list settings. Format: ```Default|QTEMP,QGPL;QSHONI Dev|QTEMP,QGPL,QSHONI```.   
+There is also a dropdown on the main form to select and apply the selected library list.
 
 Added ```CCSID``` and ```IASP``` settings in case we need to use them for data conversions. ```CCSID``` setting is not implemented yet as the app jobs should use the CCSID for the appropriate user profile automatically.  
 
