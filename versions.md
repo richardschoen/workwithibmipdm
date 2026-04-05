@@ -66,16 +66,16 @@ Changed library dropdown SQL to use SYSTEM_TABLE_SCHEMA instead of
 using TABLE_SCHEMA. This uses 10 char collection names instead of long 
 names. Ran into a situation where long collection names were coming back instead of a library name.
 
-Added compile settings for COBOL and SQL source types. 
-compilecbl for CBL
-compilecblle for CBLLE
-compilesqlcbl for SQLCBL
-compilesqlcblLE for SQLCBLLE
-compilesql for SQL for executing statements in selected member. 
-
-AppSettings.xml automatically backed up to a timestamped version of AppSettings-yyyyMMddhhmmss.xml before editing.
-
-AppSettings.xml automatically backed up to a timestamped version of AppSettings-yyyyMMddhhmmss.xml before reset to default.
+Added compile settings for COBOL and SQL source types.   
+compilecbl for CBL  
+compilecblle for CBLLE   
+compilesqlcbl for SQLCBL    
+compilesqlcblLE for SQLCBLLE    
+compilesql for SQL for executing statements in selected member        
+  
+AppSettings.xml automatically backed up to a timestamped version of AppSettings-yyyyMMddhhmmss.xml before editing.   
+  
+AppSettings.xml automatically backed up to a timestamped version of AppSettings-yyyyMMddhhmmss.xml before reset to default.   
 
 ## V1.0.1.18 - 1/28/2026
 Updated JT400 to JT400-21.0.6. This resolves a random login problem I was having with a V7R5 system on IBM Power Cloud. 
