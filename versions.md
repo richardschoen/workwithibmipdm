@@ -77,7 +77,7 @@ AppSettings.xml automatically backed up to a timestamped version of AppSettings-
   
 AppSettings.xml automatically backed up to a timestamped version of AppSettings-yyyyMMddhhmmss.xml before reset to default.   
 
-## V1.0.1.18 - 1/28/2026
+## V1.0.1.18
 Updated JT400 to JT400-21.0.6. This resolves a random login problem I was having with a V7R5 system on IBM Power Cloud. 
 I kept getting a "Password is incorrect error". Seems to be good now with JT400-21.0.6
 
